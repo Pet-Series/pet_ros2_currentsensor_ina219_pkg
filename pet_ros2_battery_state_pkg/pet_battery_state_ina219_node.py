@@ -12,7 +12,7 @@
 ## $ 
 ## $ sudo pip3 install adafruit-circuitpython-ina219
 ##
-## Hardware: Power circuit via INA219 break aout board (Power at VIn+, Drain/Source at VIn- )
+## Hardware: Power circuit via INA219 break-out-board (Power at VIn+, Drain/Source at VIn- )
 ## Host: Raspberry Pi 4(Ubuntu) via I2C
 ##
 ## Launch sequence:
