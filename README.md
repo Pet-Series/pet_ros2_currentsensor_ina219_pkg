@@ -21,7 +21,7 @@ ROS2-publisher for the Current/Voltage sensor INA219. Publish measurement as ROS
 
 # Prerequisite: Software
 * Ubuntu 20.04 (64bit) or newer
-* Robot Operating System 2, ROS2 (Version Galathic)
+* Robot Operating System 2, ROS2 (Version Galactic)
   <blockquote>...do the ROS2-installation stuff...</blockquote>
 
 ## Prerequisite: I2C-interface Raspberry Pi 4 / Ubuntu
