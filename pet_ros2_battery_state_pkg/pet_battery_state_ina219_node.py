@@ -9,16 +9,16 @@
 ##
 ## Prerequisite:
 ## Software
-## $ 
-## $ sudo pip3 install adafruit-circuitpython-ina219
+## ~$ sudo apt install python3-pip
+## ~$ sudo pip3 install adafruit-blinka
+## ~$ sudo pip3 install adafruit-circuitpython-ina219
 ##
 ## Hardware: Power circuit via INA219 break-out-board (Power at VIn+, Drain/Source at VIn- )
 ## Host: Raspberry Pi 4(Ubuntu) via I2C
 ##
 ## Launch sequence:
 ## 1) $ ros2 run pet_ros2_currentsensor_ina219_pkg pet_current_sensor_ina219_node.py 
-## 2) $ ros2 topic echo /xyz
-##    $ ros2 topic echo /zyx
+## 2) $ ros2 topic echo /battery_status
 ##
 
 # Import the ROS2-stuff
