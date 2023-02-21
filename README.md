@@ -5,11 +5,11 @@ ROS2-publisher for the Current/Voltage sensor INA219. Publish measurement as ROS
 **Output:** ROS node (ROS2) that publish topics with voltage & current values.
 
 <table>
-    <td>
+    <td>Wireing Diagram<br>
         <img src="./doc/pet_ros2_currentsensor(INA219)_wiring.png" height="350px">
     </td>
-    <td>
-        ..
+    <td>Installation<br>
+        <img src="./doc/pet_ros2_currentsensor(photo01).jpg" height="350px">
     </td>
   </table>
 
@@ -21,7 +21,7 @@ ROS2-publisher for the Current/Voltage sensor INA219. Publish measurement as ROS
 
 # Prerequisite: Software
 * Ubuntu 20.04 (64bit) or newer
-* Robot Operating System 2, ROS2 (Version Galactic)
+* Robot Operating System 2, ROS2 (Version Galactic/Humble)
   <blockquote>...do the ROS2-installation stuff...</blockquote>
 
 ## Prerequisite: I2C-interface Raspberry Pi 4 / Ubuntu
